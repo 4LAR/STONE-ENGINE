@@ -3,7 +3,7 @@
 #       by 100LAR
 #
 
-version_engine = '1.2'
+version_engine = '1.3'
 
 import time
 import os
@@ -209,6 +209,15 @@ try:
                             exec('console.add_console(str(' + self.input.split(' ')[1] + '))')
                         except:
                             self.add_console(' ERROR PRINT')
+
+                    elif self.input == 'fps':
+                        if settings.show_fps:
+                            settings.show_fps = False
+                            self.add_console('FPS OFF')
+                        else:
+                            settings.show_fps = True
+                            self.add_console('FPS ON')
+
                     self.input = ''
 
         def draw(self, screen):
