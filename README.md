@@ -1,4 +1,4 @@
-# STONE-ENGINE (Ver 1.2)
+# STONE-ENGINE (Ver 1.3)
 
 Для правильной работы этого кода - нужно установить:<br>
 -python 3.8 (https://www.python.org/)<br>
